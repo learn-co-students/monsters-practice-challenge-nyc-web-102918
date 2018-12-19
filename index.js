@@ -31,7 +31,6 @@ function retrieveFiftyMonsters(pageNumber) {
       allMonsters = parsedResult
       allMonsters.forEach( monster => showMonster(monster))
       console.log(pageNumber)
-      // return ++pageNumbers
     })
 }
 
